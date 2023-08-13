@@ -1,0 +1,239 @@
+a {
+    font-weight: inherit;
+    color: inherit;
+    text-decoration: none
+}
+
+a:hover,a:active {
+    outline: none
+}
+
+a img {
+    border: none
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background-color: transparent;
+    font-size: 16px
+}
+
+
+.header>* {
+    margin-right: 15px
+}
+
+.header .title {
+    display: inline-block;
+    background-color: #244967;
+    padding: 0 15px;
+    color: #fff;
+}
+
+.header .active {
+    color: #bfcfe1
+}
+
+.header a:hover {
+    color: #bfcfe1
+}
+
+.choose-nickname-view {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+.choose-nickname-view>img {
+    flex: 0 0 auto;
+    position: relative;
+    left: 20px;
+    margin-bottom: 20px
+}
+
+.choose-nickname-view>.dialog,.room-view.choose-nickname-view>.container {
+    width: 300px
+}
+
+.choose-nickname-view>.dialog>[data-hook=ok],.room-view.choose-nickname-view>.container>[data-hook=ok] {
+    align-self: center;
+    width: 100px
+}
+
+.dialog .label-input,.room-view>.container .label-input {
+    display: flex;
+    background-color: #244967;
+    align-items: baseline;
+    border-radius: 5px;
+    padding: 3px 3px 3px 5px
+}
+
+.dialog input:not([type=range]),.room-view>.container input:not([type=range]) {
+    color: #fff;
+    background-color: #111619;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 1px solid #111619
+}
+
+.dialog input:focus:not([type=range]),.room-view>.container input:focus:not([type=range]) {
+    border-color: #244967
+}
+
+.dialog,.room-view>.container {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px
+}
+
+.dialog>h1,.room-view>.container>h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px !important;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    border-bottom: 3px;
+    border-bottom-color: #c13535;
+    border-bottom-style: solid
+}
+
+.dialog>:not(:last-child),.room-view>.container>:not(:last-child) {
+    margin-bottom: 6px
+}
+
+.dialog .row,.room-view>.container .row {
+    display: flex
+}
+
+.dialog .row>:not(:last-child),.room-view>.container .row>:not(:last-child) {
+    margin-right: 6px
+}
+
+.dialog .row>*,.room-view>.container .row>* {
+    flex: 1
+}
+
+.dialog button,.room-view>.container button {
+    background-color: #244967
+}
+
+.dialog button:hover,.room-view>.container button:hover {
+    background-color: #2f5e85
+}
+
+.dialog button:active,.room-view>.container button:active {
+    background-color: #193449
+}
+
+.dialog button:disabled,.room-view>.container button:disabled {
+    background-color: #3e3e3e
+}
+
+.dialog input:not([type=range]),.room-view>.container input:not([type=range]) {
+    min-width: 10px
+}
+
+.dialog .label-input,.room-view>.container .label-input {
+    display: flex;
+    background-color: #244967;
+    align-items: baseline;
+    border-radius: 5px;
+    padding: 3px 3px 3px 5px
+}
+
+.dialog .label-input>*,.room-view>.container .label-input>* {
+    flex: 1
+}
+
+.dialog .label-input label,.room-view>.container .label-input label {
+    flex: 0 0 auto;
+    margin-right: 10px
+}
+
+.dialog .file-btn input[type=file],.room-view>.container .file-btn input[type=file] {
+    display: none
+}
+
+.dialog .file-btn label,.room-view>.container .file-btn label {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    background-color: #244967;
+    display: inline-block;
+    cursor: pointer
+}
+
+.dialog .file-btn label:hover,.room-view>.container .file-btn label:hover {
+    background-color: #2f5e85
+}
+
+.dialog .file-btn label:active,.room-view>.container .file-btn label:active {
+    background-color: #193449
+}
+
+.dialog .file-btn label:disabled,.room-view>.container .file-btn label:disabled {
+    background-color: #3e3e3e
+}
+
+.dialog select,.room-view>.container select {
+    border: 1px solid #111619;
+    background-color: #111619;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #fff;
+    padding: 0px 5px
+}
+
+.dialog select:hover:not(:disabled),.room-view>.container select:hover:not(:disabled) {
+    border-color: #244967
+}
+
+.basic-dialog .buttons {
+    margin-top: 10px;
+    display: flex
+}
+
+.basic-dialog .buttons>:not(:last-child) {
+    margin-right: 6px
+}
+
+.basic-dialog .buttons>* {
+    flex: 1;
+    white-space: nowrap
+}
+
+.basic-dialog p {
+    line-height: 1.4em
+}
+
+.simple-dialog-view {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+.simple-dialog-view>.dialog,.room-view.simple-dialog-view>.container {
+    min-width: 300px
+}
