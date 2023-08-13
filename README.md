@@ -1,6 +1,7 @@
 # HaxBall | Quiz
 
-![alt text](https://img.imgyukle.com/2023/08/13/rez7Sb.png)
+<img src="https://img.imgyukle.com/2023/08/13/rez7Sb.png" alt="alt text" width="320" height="180">
+
 
 [View demo](https://haxball-quiz.vercel.app/)
 
