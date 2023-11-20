@@ -17,7 +17,7 @@ root.render(
         <div class="header">
             <span class="title">HaxBall | Quiz</span>
             <a href="https://haxball-quiz.vercel.app/" class="active">Play</a>
-            <a href='https://discord.gg/dtmAW486Tt' class="active"> Discord</a>
+            <a href='https://discord.gg/Rf2dW9H7Ct' class="active"> Discord</a>
         </div>
         <title>HaxBall | Quiz</title>
         <App />
